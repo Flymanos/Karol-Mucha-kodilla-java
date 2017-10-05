@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Karol-Mucha-kodilla-java.iml" filepath="$PROJECT_DIR$/Karol-Mucha-kodilla-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Karol-Mucha-kodilla-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Karol-Mucha-kodilla-java_main.iml" group="Karol-Mucha-kodilla-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Karol-Mucha-kodilla-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Karol-Mucha-kodilla-java_test.iml" group="Karol-Mucha-kodilla-java" />
     </modules>
   </component>
 </project>
