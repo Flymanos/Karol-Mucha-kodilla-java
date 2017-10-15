@@ -18,6 +18,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-all:1.10.19" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" level="project" />
