@@ -4,7 +4,6 @@ import com.kodilla.stream.forumuser.Forum;
 import com.kodilla.stream.forumuser.ForumUser;
 
 import java.time.LocalDate;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -12,7 +11,7 @@ public class StreamMain {
     public static void main(String[] args) {
         Forum forum = new Forum();
 
-        Map<Integer, ForumUser> par = new HashMap<>();
+        Map<Integer, ForumUser> par;
         par = forum.getUserList().stream()
                 .filter(forumUser -> forumUser.getSex() == 'm')
                 .filter(forumUser -> forumUser.getBirthDate().isBefore(LocalDate.now().minusYears(20)))
