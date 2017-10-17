@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-10-17T16:25:08" hostname="DESKTOP-ID1E296" time="0.124">
+  <properties/>
+  <testcase name="postsUserAvg1000PostsTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.115"/>
+  <testcase name="commentsPostAvg0PostsTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.002"/>
+  <testcase name="commentsPostAvgLessPostsTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.002"/>
+  <testcase name="usersPostAvg100UsersTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.001"/>
+  <testcase name="postsUserAvg0PostsTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.001"/>
+  <testcase name="commentsPostAvgMorePostsTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.001"/>
+  <testcase name="usersPostAvg0UsersTestCase" classname="com.kodilla.testing.forum.statistics.StatisticsCalculatorTestSuite" time="0.0"/>
+  <system-out><![CDATA[StatisticsCalculator Test Suite starts!
+Test case nr 1 starts.
+Test case nr 1 ends.
+Test case nr 2 starts.
+Test case nr 2 ends.
+Test case nr 3 starts.
+Test case nr 3 ends.
+Test case nr 4 starts.
+Test case nr 4 ends.
+Test case nr 5 starts.
+Test case nr 5 ends.
+Test case nr 6 starts.
+Test case nr 6 ends.
+Test case nr 7 starts.
+Test case nr 7 ends.
+StatisticsCalculator Test Suite ends!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
