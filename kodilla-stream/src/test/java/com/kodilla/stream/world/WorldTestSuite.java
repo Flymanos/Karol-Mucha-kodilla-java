@@ -37,7 +37,7 @@ public class WorldTestSuite {
         //then
         Assert.assertEquals(new BigDecimal(60), result);
     }
-
+    
     @Test
     public void getPeoplesQuantityManyCountriesTestCase(){
         //given
