@@ -1,27 +1,9 @@
 package com.kodilla.stream;
 
-import com.kodilla.stream.forumuser.Forum;
-import com.kodilla.stream.forumuser.ForumUser;
-
-import java.time.LocalDate;
-import java.util.Map;
-import java.util.stream.Collectors;
+import com.kodilla.stream.world.World;
 
 public class StreamMain {
     public static void main(String[] args) {
-        Forum forum = new Forum();
-
-        Map<Integer, ForumUser> par;
-        par = forum.getUserList().stream()
-                .filter(forumUser -> forumUser.getSex() == 'm')
-                .filter(forumUser -> forumUser.getBirthDate().isBefore(LocalDate.now().minusYears(20)))
-                .filter(forumUser -> forumUser.getPostCount() != 0)
-                .collect(Collectors.toMap(ForumUser::getId, forumUser -> forumUser));
-
-        par.entrySet().stream()
-                .map(integerForumUserEntry -> integerForumUserEntry.getKey() + " " + integerForumUserEntry.getValue().toString())
-                .forEach(System.out::println);
+        World world = new World();
     }
-
-
 }
