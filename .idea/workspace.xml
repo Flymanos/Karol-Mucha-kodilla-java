@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/array/ArrayOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -1255,7 +1255,7 @@
       <workItem from="1508256696300" duration="6728000" />
       <workItem from="1508268305670" duration="80000" />
       <workItem from="1508271250635" duration="891000" />
-      <workItem from="1508436175415" duration="6455000" />
+      <workItem from="1508436175415" duration="6885000" />
     </task>
     <servers />
   </component>
@@ -1292,7 +1292,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53883000" />
+    <option name="totallyTimeSpent" value="54313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-27" y="0" width="1407" height="1047" extended-state="0" />
@@ -1760,7 +1760,7 @@
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/array/ArrayOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
