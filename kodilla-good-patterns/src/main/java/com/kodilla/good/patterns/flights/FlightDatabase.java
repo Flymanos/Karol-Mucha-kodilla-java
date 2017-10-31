@@ -1,9 +1,9 @@
 package com.kodilla.good.patterns.flights;
 
-import java.util.Set;
+import java.util.Collection;
 
 public interface FlightDatabase {
-    public Iterable<Flight> getFlights();
+    public Collection<Flight> getFlights();
 
     public void addFlight(Flight flight);
 }
