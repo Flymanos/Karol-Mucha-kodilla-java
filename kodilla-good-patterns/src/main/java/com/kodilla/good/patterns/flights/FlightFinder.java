@@ -18,16 +18,16 @@ public class FlightFinder {
         toCity(city).stream().forEach(System.out::println);
     }
 
-    private Set<Flight> fromCity(String city){
+    private List<Flight> fromCity(String city){
         return flightDatabase.getFlights().stream()
                 .filter(s -> s.getFrom().equals(city))
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    private Set<Flight> toCity(String city){
+    private List<Flight> toCity(String city){
         return flightDatabase.getFlights().stream()
                 .filter(s -> s.getTo().equals(city))
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     public void searchFromCityToCity(String from, String to){
