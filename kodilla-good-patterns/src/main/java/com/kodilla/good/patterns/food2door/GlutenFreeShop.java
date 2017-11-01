@@ -3,7 +3,7 @@ package com.kodilla.good.patterns.food2door;
 import java.util.HashMap;
 
 public class GlutenFreeShop implements Supplier{
-    HashMap<String, Integer> products = new HashMap<>();
+    private HashMap<String, Integer> products = new HashMap<>();
     private static final int ONE_DELIVERY_QUANTITY_MIN = 5;
     private static final int ONE_DELIVERY_QUANTITY_MAX = 20;
 
