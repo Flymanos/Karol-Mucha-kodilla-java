@@ -2,7 +2,7 @@ package com.kodilla.good.patterns.flights;
 
 import java.util.HashSet;
 
-public class FlightDatabaseMySQL implements FlightDatabase{
+public class FlightDatabaseBuildin implements FlightDatabase{
     private HashSet<Flight> flights = new HashSet<>();
 
     public HashSet<Flight> getFlights() {

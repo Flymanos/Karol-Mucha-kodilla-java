@@ -44,10 +44,6 @@ public class Flight {
 
     @Override
     public String toString() {
-        return "Flight{" +
-                "from='" + from + '\'' +
-                ", to='" + to + '\'' +
-                ", when=" + when +
-                '}';
+        return from + ";" + to + ";" + when.getYear() + ";" + when.getMonth() + ";" + when.getDayOfMonth();
     }
 }

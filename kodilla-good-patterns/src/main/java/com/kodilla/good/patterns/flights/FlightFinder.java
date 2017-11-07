@@ -2,6 +2,7 @@ package com.kodilla.good.patterns.flights;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class FlightFinder {
     private FlightDatabase flightDatabase;

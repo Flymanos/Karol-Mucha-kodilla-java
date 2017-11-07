@@ -4,15 +4,12 @@ import java.time.LocalDate;
 
 public class Application {
     public static void main(String args[]){
-        FlightDatabase flightDatabase = new FlightDatabaseMySQL();
-        flightDatabase.addFlight(new Flight("Wroclaw", "Pionki", LocalDate.of(2010, 9, 12)));
-        flightDatabase.addFlight(new Flight("Pionki", "Praga", LocalDate.of(2010, 9, 13)));
-        flightDatabase.addFlight(new Flight("Wroclaw", "Warszawa", LocalDate.of(2010, 9, 12)));
-        flightDatabase.addFlight(new Flight("Warszawa", "Praga", LocalDate.of(2010, 9, 13)));
+        FlightDatabase flightDatabase = new FlightDatabaseFile("/Users/karolmucha/Documents/lotyDB.txt");
+        flightDatabase.addFlight(new Flight("Warszawa", "Wroclaw", LocalDate.of(2014, 12, 24)));
         FlightFinder flightFinder = new FlightFinder(flightDatabase);
-        flightFinder.searchFromCity("Pionki");
-        flightFinder.searchToCity("Praga");
-        flightFinder.searchFromCityToCity("Wroclaw", "Pionki");
-        flightFinder.searchIndirectFlight("Wroclaw", "Praga");
+        flightFinder.searchFromCity("Warszawa");
+        flightFinder.searchToCity("Wroclaw");
+        flightFinder.searchFromCityToCity("Warszawa", "Wroclaw");
+        flightFinder.searchIndirectFlight("Warszawa", "Praga");
     }
 }
