@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.525s</div>
+<div class="counter">0.524s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">testCircleLoadedIntoContainer</td>
-<td>0.166s</td>
+<td>0.154s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRectangleLoadedIntoContainer</td>
-<td>0.115s</td>
+<td>0.119s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testShapeLoadedIntoContainer</td>
-<td>0.124s</td>
+<td>0.133s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSquareLoadedIntoContainer</td>
-<td>0.120s</td>
+<td>0.118s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,24 +102,24 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2017-11-09 20:01:52.149  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.spring.SpringRunnerTestSuite], using SpringBootContextLoader
-2017-11-09 20:01:52.150  INFO 976 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.spring.SpringRunnerTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
-2017-11-09 20:01:52.156  INFO 976 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.spring.SpringRunnerTestSuite]: SpringRunnerTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2017-11-09 20:01:52.161  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.spring.SpringRunner for test class com.kodilla.spring.SpringRunnerTestSuite
-2017-11-09 20:01:52.165  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2017-11-09 20:01:52.169  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-2017-11-09 20:01:52.170  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2017-11-09 20:01:52.171  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
-2017-11-09 20:01:52.171  INFO 976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46caff64, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6be2a669, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72267a68, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@17722bc6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@652d793, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78fdf8de, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@39c92893, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fe31877, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f1dbe57]
-2017-11-09 20:01:52.186  INFO 976 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3453f78e: startup date [Thu Nov 09 20:01:52 CET 2017]; root of context hierarchy
-2017-11-09 20:01:52.336  INFO 976 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2017-11-09 20:01:52.348  INFO 976 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56e49877: startup date [Thu Nov 09 20:01:52 CET 2017]; root of context hierarchy
-2017-11-09 20:01:52.461  INFO 976 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+<pre>2017-11-14 18:34:15.401  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.spring.SpringRunnerTestSuite], using SpringBootContextLoader
+2017-11-14 18:34:15.402  INFO 652 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.spring.SpringRunnerTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-11-14 18:34:15.403  INFO 652 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.spring.SpringRunnerTestSuite]: SpringRunnerTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-11-14 18:34:15.409  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.spring.SpringRunner for test class com.kodilla.spring.SpringRunnerTestSuite
+2017-11-14 18:34:15.412  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-11-14 18:34:15.414  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2017-11-14 18:34:15.415  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-11-14 18:34:15.415  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-11-14 18:34:15.416  INFO 652 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bfef40f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2bbbce02, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a48639a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2589ee3f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@592b280d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c1536f4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15f8c45f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7fea28c9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7f811c79]
+2017-11-14 18:34:15.423  INFO 652 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ce4b984: startup date [Tue Nov 14 18:34:15 CET 2017]; root of context hierarchy
+2017-11-14 18:34:15.568  INFO 652 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-14 18:34:15.579  INFO 652 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d769a26: startup date [Tue Nov 14 18:34:15 CET 2017]; root of context hierarchy
+2017-11-14 18:34:15.702  INFO 652 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 Choosen shape says: This is a triangle.
-2017-11-09 20:01:52.472  INFO 976 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7ccf0eb: startup date [Thu Nov 09 20:01:52 CET 2017]; root of context hierarchy
-2017-11-09 20:01:52.585  INFO 976 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2017-11-09 20:01:52.592  INFO 976 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2f5de87f: startup date [Thu Nov 09 20:01:52 CET 2017]; root of context hierarchy
-2017-11-09 20:01:52.700  INFO 976 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-14 18:34:15.711  INFO 652 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@251cbde4: startup date [Tue Nov 14 18:34:15 CET 2017]; root of context hierarchy
+2017-11-14 18:34:15.823  INFO 652 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-14 18:34:15.829  INFO 652 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@47f4fc5f: startup date [Tue Nov 14 18:34:15 CET 2017]; root of context hierarchy
+2017-11-14 18:34:15.941  INFO 652 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 </pre>
 </span>
 </div>
@@ -131,7 +131,7 @@ Choosen shape says: This is a triangle.
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.3</a> at 09.11.2017, 20:01:57</p>
+<a href="http://www.gradle.org">Gradle 4.3</a> at 14.11.2017, 18:34:21</p>
 </div>
 </div>
 </body>
