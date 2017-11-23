@@ -6,4 +6,5 @@ include 'kodilla-spring-intro'
 include 'kodilla-spring'
 include 'kodilla-patterns'
 findProject(':kodilla-patterns')?.name = 'com.kodilla.patterns'
+include 'kodilla-jdbc'
 
