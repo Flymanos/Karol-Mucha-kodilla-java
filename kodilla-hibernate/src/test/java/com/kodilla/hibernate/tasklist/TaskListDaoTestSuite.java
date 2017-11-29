@@ -22,7 +22,7 @@ public class TaskListDaoTestSuite {
         TaskList taskList = new TaskList(listName, "Lista ziemniaczanych taskow");
         taskListDao.save(taskList);
         //when
-        TaskList retrieved = taskListDao.findOne(taskList.getId());
+        TaskList retrieved = taskListDao.findByListName(listName).get(0);
         //then
         Assert.assertEquals(taskList.getListName(), retrieved.getListName());
         //cleanUp
