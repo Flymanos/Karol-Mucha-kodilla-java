@@ -23,19 +23,23 @@ public class InvoiceDaoTestSuite {
     @Test
     public void testInvoiceDao(){
         //given
-        List<Item> items = new ArrayList<>();
-        items.add(new Item(new Product("Ziemniaki"), new BigDecimal(10), 14, new BigDecimal(140)));
-        items.add(new Item(new Product("Kurczaki"), new BigDecimal(10), 14, new BigDecimal(140)));
-        items.add(new Item(new Product("Kapusta"), new BigDecimal(10), 14, new BigDecimal(140)));
+        Product product = new Product("Ziemniaki");
+        Product product1 = new Product("Kurczaki");
+        Product product2 = new Product("Kurczaki i ziemniaki");
 
-        Invoice invoice = new Invoice("ABC/12/12", items);
+        List<Item> items = new ArrayList<>();
+        Item item = new Item(product, new BigDecimal(14), 14);
+        Item item1 = new Item(product1, new BigDecimal(14), 14);
+        Item item2 = new Item(product2, new BigDecimal(14), 14);
+
+        Invoice invoice = new Invoice("ABS/14/14");
+        invoice.setItems(items);
         //when
         invoiceDao.save(invoice);
         int id = invoice.getId();
-        Invoice result = invoiceDao.findOne(id);
         //then
-        Assert.assertEquals(invoice.getItems().size(), result.getItems().size());
-        //cleanUp
+        Assert.assertEquals(invoice.getItems().size(), invoiceDao.findOne(id).getItems().size());
+        //cleanUP
         invoiceDao.delete(id);
     }
 }

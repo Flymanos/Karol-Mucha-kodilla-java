@@ -16,11 +16,10 @@ public class Item {
 
     public Item(){}
 
-    public Item(Product product, BigDecimal price, int quantity, BigDecimal value) {
+    public Item(Product product, BigDecimal price, int quantity) {
         this.product = product;
         this.price = price;
         this.quantity = quantity;
-        this.value = value;
     }
 
     @Id
