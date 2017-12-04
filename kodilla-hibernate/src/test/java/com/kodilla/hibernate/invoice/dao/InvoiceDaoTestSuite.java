@@ -31,8 +31,12 @@ public class InvoiceDaoTestSuite {
         Item item = new Item(product, new BigDecimal(14), 14);
         Item item1 = new Item(product1, new BigDecimal(14), 14);
         Item item2 = new Item(product2, new BigDecimal(14), 14);
+        items.add(item);
+        items.add(item2);
+        items.add(item1);
 
         Invoice invoice = new Invoice("ABS/14/14");
+        items.stream().forEach(i -> i.setInvoice(invoice));
         invoice.setItems(items);
         //when
         invoiceDao.save(invoice);
