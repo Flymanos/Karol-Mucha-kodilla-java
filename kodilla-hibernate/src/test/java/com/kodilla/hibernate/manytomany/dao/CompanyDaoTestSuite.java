@@ -92,7 +92,7 @@ public class CompanyDaoTestSuite {
         //when
         List<Company> result = companyDao.retrieveByFirstDigitsOfName("Sof");
         //then
-        Assert.assertTrue(companies.size() > 0);
+        Assert.assertTrue(result.size() > 0);
         //cleanUp
         companyDao.deleteAll();
     }
